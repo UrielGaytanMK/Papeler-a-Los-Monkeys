@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Cuadernos</title>
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --hospital-green: #ACD9B2;
+      --sm: 14px;
+      --md: 16px;
+      --lg: 18px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 26px;
+      place-content: center;
+    }
+    .product-card {
+      width: 240px;
+    }
+    .product-card img {
+      width: 240px;
+      height: 240px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+    .product-info figure {
+      margin: 0;
+    }
+    .product-info figure img {
+      width: 35px;
+      height: 35px;
+    }
+    .product-info div p:nth-child(1) {
+      font-weight: bold;
+      font-size: var(--md);
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+    .product-info div p:nth-child(2) {
+      font-size: var(--sm);
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--very-light-pink);
+    }
+    @media (max-width: 640px) {
+      .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+      }
+      .product-card {
+        width: 140px;
+      }
+      .product-card img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+<body>
+  <section class="main-container">
+    <div class="cards-container">
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/211614-500-auto?v=637733207611000000&width=500&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$87.50</p>
+            <p>Papel Bond Tamaño Carta Blanco de 37 kg con 500 Hojas Ecológico Scribe</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/212879-500-auto?v=637733672406200000&width=500&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$52.80</p>
+            <p>Bolígrafo Punto Fino Stick Azul Caja con 12 Piezas Pin Point</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/212880-500-auto?v=637733672409170000&width=500&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$52.80</p>
+            <p>Bolígrafo Punto Fino Stick Negro Caja con 12 Piezas Pin Point</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/209565-800-auto?v=637733172762830000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$82.60</p>
+            <p>Papel Bond Tamaño Carta Colores Surtidos con 100 Hojas Colores Surtido Smart Copy</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/213492-800-auto?v=637733876762930000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$48.50</p>
+            <p>Bolígrafo Punto Mediano Stick Negro Caja con 12 Piezas Bic Dura+ Bic</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/209939-800-auto?v=637733174096630000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$27.50</p>
+            <p>Grapa Standard Caja con 5000 Piezas Smart</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/212640-800-auto?v=637733213687900000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$2.80</p>
+            <p>Cartulina Bristol Express de 48.8 kg 50 x 65 cm Blanco</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/209543-800-auto?v=637733172675130000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$223.00</p>
+            <p>Folder de Cartulina Tamaño Carta Crema Caja con 100 Piezas</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://tonypapelerias.vtexassets.com/arquivos/ids/211622-800-auto?v=637733207634600000&width=800&height=auto&aspect=true" alt="">
+        <div class="product-info">
+          <div>
+            <p>$82.20</p>
+            <p>Papel Opalina Tamaño Carta Blanco con 100 hojas</p>
+          </div>
+          <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

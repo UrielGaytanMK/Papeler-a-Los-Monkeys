@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Mochilas</title>
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --hospital-green: #ACD9B2;
+      --sm: 14px;
+      --md: 16px;
+      --lg: 18px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 26px;
+      place-content: center;
+      text-align: center;
+    }
+    .product-card {
+      width: 240px;
+    }
+    .product-card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      object-fit: cover;
+      object-fit: contain;
+      margin-top: 50px;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+    .product-info figure {
+      margin: 0;
+    }
+    .product-info figure img {
+      width: 35px;
+      height: 35px;
+    }
+    .product-info div p:nth-child(1) {
+      font-weight: bold;
+      font-size: var(--md);
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+    .product-info div p:nth-child(2) {
+      font-size: var(--sm);
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--very-light-pink);
+    }
+    @media (max-width: 640px) {
+      .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+      }
+      .product-card {
+        width: 140px;
+      }
+      .product-card img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+<body>
+  <section class="main-container">
+    <div class="cards-container">
+
+      <div class="product-card">
+        <img src="img/Mochila1.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$319.99</p>
+            <p>Mochila para hombres y mujeres, mochila para ordenador portátil, mochila para mujer, escuela, viajes, universidad, camping, poliéster impermeable</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila2.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$593.98</p>
+            <p>mochila escolar para niños pequeños y niñas</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila3.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$469.99</p>
+            <p>FUXINGYAO Mochila para Laptop mujer,Mochila para Laptop15.6 Pulgadas,Mochila de viaje Mujer,Mochila Escolar para Mujer,Combinación de colores</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila4.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$599.00</p>
+            <p>Mochila para Laptop de 15,6 para mujeres y hombres, con Puerto de Carga USB, para universidad, negocios, trabajo, viajes, negro, rosa</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila5.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$399.00</p>
+            <p>Mochila Antirrobo, EASYTAO Mochila para Portátil con Puerto de Carga USB y de Auriculares, Mochila para Laptop de 15.6 Pulgadas Impermeable para Hombres, Mujeres, Trabajo, Viajes</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila6.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$339.00</p>
+            <p>Mochila para Laptop, Kawaii De Moda, Gran Capacidad, Multi-bolsillo Mochilas para Laptop Mochila Nailon Unisex Viaje Compras Casual Multi Bolsillos,Con Colgante de Rana</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila7.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$248.00</p>
+            <p>Mochila para portátil, Mochila para Laptop de 15.6 pulgadas, Puerto de Carga y Puerto para Audífonos, E T EASYTAO Mochila Impermeable para Viajes, Negocios, Escuelas</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila8.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$676.99</p>
+            <p>Abshoo Mochila de Viaje para Mujer Clásica Básica para Hombres Universitarios Mochila Escolar Resistente Al agua para Computadora Portátil</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mochila9.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$566.13</p>
+            <p>Mochila de cuero para mujer, mini mochila para niñas, mochila escolar con pompón</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

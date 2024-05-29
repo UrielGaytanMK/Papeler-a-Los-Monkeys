@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Mobiliario</title>
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --hospital-green: #ACD9B2;
+      --sm: 14px;
+      --md: 16px;
+      --lg: 18px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 26px;
+      place-content: center;
+      text-align: center;
+    }
+    .product-card {
+      width: 240px;
+    }
+    .product-card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      object-fit: cover;
+      object-fit: contain;
+      margin-top: 50px;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+    .product-info figure {
+      margin: 0;
+    }
+    .product-info figure img {
+      width: 35px;
+      height: 35px;
+    }
+    .product-info div p:nth-child(1) {
+      font-weight: bold;
+      font-size: var(--md);
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+    .product-info div p:nth-child(2) {
+      font-size: var(--sm);
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--very-light-pink);
+    }
+    @media (max-width: 640px) {
+      .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+      }
+      .product-card {
+        width: 140px;
+      }
+      .product-card img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+<body>
+  <section class="main-container">
+    <div class="cards-container">
+
+      <div class="product-card">
+        <img src="img/Mobiliario1.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$3,239.00</p>
+            <p>OCELOT GAMING Silla Gamer OSB-04. Base de plástico, Descansa Brazos Ajustables, Ángulo de inclinación de 155°. Incluye cojín Lumbar y Cervical. Soporta hasta 150Kg. Color Blanco y Negro.</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mobiliario2.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$1,599.00</p>
+            <p>KITUL Silla Gamer, Silla de Juegos de computadora, Respaldo ergonómico y Ajuste de Altura reclinable, balancín Giratorio con reposacabezas y Almohada Lumbar, Estructura Rigida, Silla E-Sports (Azul)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mobiliario3.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$1,849.00</p>
+            <p>Silla Gamer Power Rush V2 Black Edition Mediana Tela y Piel Reclinable Negro</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mobiliario4.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$1,649.00</p>
+            <p>KITUL Silla Gamer, Silla de Juegos de computadora, Respaldo ergonómico y Ajuste de Altura reclinable, Giratoria con reposacabezas y Almohada Lumbar, Estructura Rigida, Silla E-Sports (Rojo/Negro)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Mobiliario5.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$1,599.00</p>
+            <p>KITUL Silla Gamer, Silla de Juegos de computadora, Respaldo ergonómico y Ajuste de Altura reclinable, balancín Giratorio con reposacabezas y Almohada Lumbar, Estructura Rigida, Silla E-Sports (Rosa)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

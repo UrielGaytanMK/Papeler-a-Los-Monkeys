@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Cuadernos</title>
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --hospital-green: #ACD9B2;
+      --sm: 14px;
+      --md: 16px;
+      --lg: 18px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 26px;
+      place-content: center;
+      text-align: center;
+    }
+    .product-card {
+      width: 240px;
+    }
+    .product-card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      object-fit: contain;
+      margin-top: 50px;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+    .product-info figure {
+      margin: 0;
+    }
+    .product-info figure img {
+      width: 35px;
+      height: 35px;
+    }
+    .product-info div p:nth-child(1) {
+      font-weight: bold;
+      font-size: var(--md);
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+    .product-info div p:nth-child(2) {
+      font-size: var(--sm);
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--very-light-pink);
+    }
+    @media (max-width: 640px) {
+      .cards-container {
+        grid-template-columns: repeat(auto-fill, 140px);
+      }
+      .product-card {
+        width: 140px;
+      }
+      .product-card img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+<body>
+  <section class="main-container">
+    <div class="cards-container">
+
+      <div class="product-card">
+        <img src="img/Cuaderno1.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$165.00</p>
+            <p>Scribe, CLÁSICO, Cuaderno Profesional con Espiral Doble de Pasta Semi Rígida, Raya de 200 Hojas (Diseño de Portada Aleatoria)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno2.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$319.00</p>
+            <p>SKY BOOK Cuaderno Profesional Colors Escolar 100hjs Arillo Doble Paquete 8 piezas Raya</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno3.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$98.00</p>
+            <p>Scribe, SUPER MARIO, Cuaderno Espiral Doble Profesional de Pasta Semi Rígida, Cuadro Chico C.5 de 100 Hojas (Diseño de Portada Aleatoria)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno4.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$364.99</p>
+            <p>Koogel - Paquete de 24 cuadernos en blanco, 12 colores de bolsillo pequeño, bloc de notas de 3.5 x 5.5 pulgadas, 48 páginas de cada diario para viajeros</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno5.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$419.99</p>
+            <p>Paquete de 5 cuadernos en espiral, cuadernos pequeños de 15 x 20 cm , con 120 páginas rayadas para trabajo, estudiantes, escuela, escritura (cubiertas de papel kraft en 5 colores)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno6.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$179.00</p>
+            <p>Meryado Libreta，Cuaderno，Libreta ejecutiva,100 hojas/200 páginas por libro，14.5*21.5cm,Set de dos cuadernos (1 negro 1 gris)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno7.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$206.00</p>
+            <p>Ofidosel Porta Notas Adhesivas con más de 500 Notas y Separadores. Organizador de Pendientes para Trabajo o Escuela. Notas adheribles con Banderitas Adhesivas. Agenda Personal. Task Notebook (Negro-Beige)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/Cuaderno8.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$199.00</p>
+            <p>90 piezas Carpeta de Cuaderno A6, sobres de ​presupuesto para dinero en efectivo, hojas de presupuesto de gastos y etiquetas para organizador de presupuesto, sistema de sobres para efectivo y ahorro de dinero (negro)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/cuaderno9.jpg" alt="">
+        <div class="product-info">
+          <div>
+            <p>$699.99</p>
+            <p>MOLSHINE A5 (5.5" x 8.3") Cuaderno vintage en relieve,diario de bronce de cuero retro,100 hojas de papel,bloc de notas de viaje de tapa dura para escribir,cuaderno de bocetos,colección,regalo,decoración (Verde)</p>
+          </div>
+          <figure>
+            <img src="./img/carrito.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
